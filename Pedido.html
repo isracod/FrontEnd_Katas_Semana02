@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="./scripts.js"></script>
+    
+</head>
+<body>
+    <div>
+        <nav class="navegacion">
+            <ul class="navegablemenu">
+                <li class="cakepa"><h1>Cake Palace</h1></li>
+                <li><img src="./img/icon/inicio.png" width="50 px"><a href="./Inicio.html">Inicio</a></li>
+                <li><img src="./img/icon/menu.png" width="50 px"><a href="./Menu.html">Menu</a></li>
+                <li><img src="./img/icon/pedido.png" width="50 px"><a href="./Pedido.html">Realizar pedido</a></li>
+                <li><img src="./img/icon/chef.png" width="50 px"><a href="./Pastelero.html">Acceso a Pastelero</a></li>
+            </ul>
+        </nav>
+        <nav>
+            <section>
+                <div>
+                    <img src="./img/img2.png">
+                    <nav class="pedidofuente">
+                    <p><h2>¡Creemos tu pastel!</h2></p><br><br>
+                    </nav>
+                </div>
+                <section>
+                <div class="selectorpan">
+                    <fieldset>
+                        <legend><h3>Elige el tipo de pan</h3></legend>
+                        <input type="checkbox" name="Pan-Vainilla" value="pan-vainilla"> Pan de Vainilla..........................$150 <br>
+                        <input type="checkbox" name="Pan-Chocolate" value="pan-chocolate"> Pan de Chocolate.....................$150 <br>
+                        <input type="checkbox" name="Pan-Cheesecake" value="pan-cheesecake"> Pan de Cheese Cake................$150 <br>
+                        <input type="checkbox" name="Pan-red" value="pan-red"> Pan de Red Valvet.....................$150 <br>
+                        <input type="checkbox" name="Pan-3" value="pan-3"> Pan de 3 Leches.........................$150 <br>
+                    </fieldset>
+                </div>
+                </section>
+                <section>
+                    <div class="selectordeco">
+                        <fieldset>
+                            <legend><h3>Elige las decoraciones</h3></legend>
+                            <input type="checkbox" name="deco-" value="deco-"> Mermelada de Fresa........................$40 <br>
+                            <input type="checkbox" name="deco-moras" value="deco-moras"> Mermelada de Moras.....................$40 <br>
+                            <input type="checkbox" name="deco-fram" value="deco-fram"> Mermelada de Frambuesa............$40 <br>
+                            <input type="checkbox" name="deco-frutas" value="deco-frutas"> Decoracion de Frutas......................$40 <br>
+                            <input type="checkbox" name="deco-chocolate" value="deco-chocolate"> Chocolate Hershey...........................$40 <br>
+                        </fieldset>
+                    </div>
+                    </section>
+                    <section>
+                        <div class="selectorcober">
+                            <fieldset>
+                                <legend><h3>Elige la cobertura</h3></legend>
+                                <input type="checkbox" name="cober-vain" value="cober-vain"> Cobertura de Vainilla............................$60 <br>
+                                <input type="checkbox" name="cober-choc" value="cober-choc"> Cobertura de Chocolate......................$60 <br>
+                                <input type="checkbox" name="cober-rojos" value="cober-rojos"> Cobertura de Frutos Rojos..................$60 <br>
+                                <input type="checkbox" name="cober-nut" value="cober-nut"> Cobertura de Nutella...............................$100 <br>
+                                <input type="checkbox" name="cober-durz" value="cober-durz"> Cobertura de Durazno...........................$60 <br>
+                            </fieldset>
+                        </div>
+                        </section>
+                        <br><hr>
+                        <div class="enviarinfo">
+                            <fieldset>
+                                <legend><h2>Ingresa tus datos personales</h2></legend>
+                                <form name="formulariocliente" action="">
+                                    <label for="nombre">Nombre </label>
+                                    <input type="text" id="nombre" name="nombre" placeholder="  Ingresa tu nombre completo    "><br>
+                                    <label for="direccion">Direccion de entrega</label>
+                                    <input type="text" id="direccion" name="direccion" placeholder="Direccion completa"><br>
+                                    <label for="telefono">Telefono</label>
+                                    <input type="text" id="telefono" name="telefono" placeholder="Numero telefonico"><br>
+                                    <label for="correo">Email</label>
+                                    <input type="text" id="correo" name="correo" placeholder="Ingresa tu Email"><br><br>
+                                </form>
+                                <hr><br>
+                                <nav class="botonenviarpedido">
+                                    <button onclick="alert('¡Listo tu pedido fue recibido, en unos momentos recibiras informacion de tu pedido en el correo electronico que ingresaste.')">¡Enviar pedido!</button>
+                                </nav><br><br>
+                                
+                            </fieldset>
+                            
+                        </div>
+            </section>
+        </nav>
+        <section class="derechosautor">
+            <footer>
+                <p>Pagina creada para fines educativos para el Proyecto LaunchX Innovaccion - Israel Lopez Rodriguez ##GitHub: isracod##</p>
+            </footer>
+        </section>
+    </div>
+</body>
+</html>
